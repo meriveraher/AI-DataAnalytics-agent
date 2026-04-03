@@ -2,7 +2,7 @@
 
 This AI-powered Analytics Agent, will have for goal investigate how AI assistants such as ChatGPT are used by students at different academic levels use AI tools like ChatGPT for tasks such as coding, writing, studying, and brainstorming. Designed for learning, EDA, and ML experimentation.
 
-# This AI Agent should be able to:
+# This AI Agent is able to:
 
 1. **🧹 Clean:** Agent will clean messy data, handle missing values, and structure the datasets for analysis.
 2. **🔢 Process/Analyze:** Users can ask questions in plain English (e.g., "What was the average number of students using AI assistants?") and agent will be able to produce an answer to the query.
