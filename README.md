@@ -9,6 +9,9 @@ This AI-powered Analytics Agent, will have for goal investigate how AI assistant
 3. **📊 Visualize:** Agent can automatically create charts, graphs, to illustrate data trend.
 4. **📋 Provide a conclusion:** Agent will summarize findings, create reports, and recommend actions.
 
+
+# The logic behind every query
+
 <img width="639" height="309" alt="Screenshot 2026-04-01 at 3 44 35 PM" src="https://github.com/user-attachments/assets/d43bcf0d-8d56-4b10-8b3b-37f6c2dcd304" />
 
 
