@@ -1,3 +1,4 @@
+# This code is for when you have the database already downloaded
 
 try:
     df = pd.read_csv("ai_assistant_usage_student_life.csv")
