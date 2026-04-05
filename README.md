@@ -73,10 +73,10 @@ Variables
 
 **4. Run the tools**
 
-tools/cleaningtools.py
-tools/processingtools.py
-tools/summarytools.py
-tools/visualizingtools.py
+- tools/cleaningtools.py
+- tools/processingtools.py
+- tools/summarytools.py
+- tools/visualizingtools.py
 
 **5. Run the demo**
 
