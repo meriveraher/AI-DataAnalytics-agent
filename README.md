@@ -22,23 +22,31 @@ This AI-powered Analytics Agent, will have for goal investigate how AI assistant
 <img width="639" height="309" alt="Screenshot 2026-04-01 at 3 44 35 PM" src="https://github.com/user-attachments/assets/d43bcf0d-8d56-4b10-8b3b-37f6c2dcd304" />
 
 
-# How to use this agent
+# **How to use this agent**
 
 **Prerequisites**
+
 - OpenAI API
 - Basic familiarity with Python and pandas
+
 
 **1. Clone the repo**
 
 git clone https://github.com/meriveraher/AI-DataAnalytics-agent.git
 cd AI-DataAnalytics-agent
 
+
 **2. Install dependencies ans import libraries**
 
 library imports/imports.py
 
+
 **3. Install Dataset**
-data/ 
+
+data/ai_assistant_usage_student_life.csv
+data/loadingdataset.py
+
+
 # About the Dataset 🗄️
 
 **AI Assistant Usage in Student Life**
@@ -49,7 +57,7 @@ Link to download:
 https://www.kaggle.com/datasets/ayeshasal89/ai-assistant-usage-in-student-life-synthetic?resource=download
 
 
-**Variables**
+Variables
 - SessionID--Unique session identifier
 - StudentLevel--Academic level: High School, Undergraduate, Graduate
 - Discipline--Student’s field of study (e.g., CS, Psychology, etc.)
@@ -62,3 +70,32 @@ https://www.kaggle.com/datasets/ayeshasal89/ai-assistant-usage-in-student-life-s
 - UsedAgain--Whether the student returned to use the assistant again
 - SatisfactionRating--1–5 rating of overall satisfaction with the session
 
+
+**4. Run the tools**
+
+tools/cleaningtools.py
+tools/processingtools.py
+tools/summarytools.py
+tools/visualizingtools.py
+
+**5. Run the demo**
+
+demo/thedemo.py
+
+The demo file includes:
+1. PRE-PROCESS: Run cleaning tools ONCE before launching the UI
+2. THE MASTER LOGIC FUNCTION, the agent's thinking structure
+   class AgentDecision(BaseModel)
+    #Initializing the memory list
+    history_buffer = []
+    def master_agent_interface(query)
+    def master_agent_interface(query)
+3. GRADIO LAYOUT
+When running this, you will get a link to the gradio demo, it lasts 72 hours.
+
+
+**If you would like to skip all the previous steps, make a copy of the Jupyter notebook, everything is packed there!
+
+Thank you for visisting my repo! 
+
+-Maria Rivera :)
