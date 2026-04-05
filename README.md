@@ -84,12 +84,11 @@ demo/thedemo.py
 
 The demo file includes:
 1. PRE-PROCESS: Run cleaning tools ONCE before launching the UI
-2. THE MASTER LOGIC FUNCTION, the agent's thinking structure
-   class AgentDecision(BaseModel)
-    #Initializing the memory list
-    history_buffer = []
-    def master_agent_interface(query)
-    def master_agent_interface(query)
+2. THE MASTER LOGIC FUNCTION, the agent's thinking structure.
+   - class AgentDecision(BaseModel)
+   - #Initializing the memory list history_buffer = []
+   - def master_agent_interface(query)
+   - def master_agent_interface(query)
 3. GRADIO LAYOUT
 When running this, you will get a link to the gradio demo, it lasts 72 hours.
 
