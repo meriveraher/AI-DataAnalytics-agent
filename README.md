@@ -12,9 +12,33 @@ This AI-powered Analytics Agent, will have for goal investigate how AI assistant
 
 # The logic behind every query
 
+- **The Data Foundation:** Agent will automatically clean and fix student levels and ratings.
+- **The Toolset:** Agent will decide which Python function to use for statistics and Matplotlib visualizations.
+- **The Brain:** A structured LLM router using the custom generate function.
+- **The Memory:** Agent will keep memory of last four queries to keep the conversation coherent.
+- **The UI:** A professional Gradio interface with Markdown tables and live charts.
+
+
 <img width="639" height="309" alt="Screenshot 2026-04-01 at 3 44 35 PM" src="https://github.com/user-attachments/assets/d43bcf0d-8d56-4b10-8b3b-37f6c2dcd304" />
 
 
+# How to use this agent
+
+**Prerequisites**
+- OpenAI API
+- Basic familiarity with Python and pandas
+
+**1. Clone the repo**
+
+git clone https://github.com/meriveraher/AI-DataAnalytics-agent.git
+cd AI-DataAnalytics-agent
+
+**2. Install dependencies ans import libraries**
+
+library imports/imports.py
+
+**3. Install Dataset**
+data/ 
 # About the Dataset 🗄️
 
 **AI Assistant Usage in Student Life**
