@@ -93,7 +93,7 @@ The demo file includes:
 When running this, you will get a link to the gradio demo, it lasts 72 hours.
 
 
-**If you would like to skip all the previous steps, make a copy of the Jupyter notebook, everything is packed there!
+**If you would like to skip all the previous steps, make a copy of the Jupyter notebook, everything is packed there!**
 
 Thank you for visisting my repo! 
 
