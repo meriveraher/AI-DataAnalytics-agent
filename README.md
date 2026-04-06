@@ -84,7 +84,7 @@ Variables
 demo/thedemo.py
 
 The demo file includes:
-1. PRE-PROCESS: Run cleaning tools ONCE before launching the UI
+1. PRE-PROCESS: Run cleaning tools once before launching the UI
 2. THE MASTER LOGIC FUNCTION, the agent's thinking structure.
    - class AgentDecision(BaseModel)
    - #Initializing the memory list history_buffer = []
