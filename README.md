@@ -33,6 +33,7 @@ This AI-powered Analytics Agent, will have for goal investigate how AI assistant
 **1. Clone the repo**
 
 git clone https://github.com/meriveraher/AI-DataAnalytics-agent.git
+
 cd AI-DataAnalytics-agent
 
 
